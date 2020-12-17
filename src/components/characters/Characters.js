@@ -1,6 +1,6 @@
 import React from 'react';
 import { useQuery } from "@apollo/client";
-import { GET_CHARACTERS } from '../graphql/characters';
+import { GET_CHARACTERS } from '../../graphql/characters';
 import Character from './Character';
 
 export default function Characters() {

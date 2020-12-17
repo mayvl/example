@@ -1,17 +1,14 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './App.css';
-import Characters from "../src/components/Characters";
+import Routes from './Routes.js';
 
 export default function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
-
-        <Characters />
-
-      </header>
-
+      <div className='App-header'>
+        <Routes />
+      </div>
     </div>
   );
 }
