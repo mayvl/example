@@ -24,9 +24,9 @@ export default function Locations() {
     return (
         <div>
             { loading ? <p>Cargando...</p> :
-                <li>
+                <ol>
                     {showLocations()}
-                </li>
+                </ol>
             }
         </div>
     )

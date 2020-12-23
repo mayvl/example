@@ -4,7 +4,7 @@ export default function Episode({name, episode}) {
     return (
         <ol>
             { name }
-            {episode}
+            .  {episode}
         </ol>
     );
 }

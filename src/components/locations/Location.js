@@ -4,11 +4,11 @@ import React from 'react';
 export default function Location({ id, name, dimension }) {
     return (
         <div>
-            <li>
+            <ol>
                 {id}
-                {name}
+                . {name}
                 {dimension}
-            </li>
+            </ol>
         </div>
     );
 }
